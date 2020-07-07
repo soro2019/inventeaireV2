@@ -1,0 +1,40 @@
+<html>
+ <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="<?=site_url('/assets/css/bootstrap.min.css')?>">
+	<link rel="stylesheet" type="text/css" href="<?=site_url('/assets/css/bootstrap.css')?>">
+	<link rel="stylesheet" type="text/css" href="<?=site_url('/assets/css/style.css')?>">
+	<link rel="stylesheet" type="text/css" href="<?=site_url('/assets/css/style.login.css')?>">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+	</style>
+ </head>
+ <title>Inventaire | Produits</title>
+
+ <body>
+ 	<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <div class="fadeIn first">
+      <i class="fa fa-stack-overflow" aria-hidden="true" id="icon" alt="User Icon"></i>
+      <h1 style="font-family: 'Lobster', cursive;">Fenêtre de Validation</h1>
+    </div>
+    <form action="" method="post">
+      <input type="hidden" id="login" class="fadeIn second" name="login"/>
+      <input type="hidden" id="password" class="fadeIn third" name="password"/>
+      
+      <input type="hidden" id="password" class="fadeIn third" name="password"/>
+      <div class='row'>
+        <div class='col-sm-2'>
+           <input type="submit" class="btn btn-success" name="btnvalid" value="Valider" style='width: 10px;'>
+        </div>
+        <div class='col-sm-2'>
+        </div>
+         <div class='col-sm-2'>
+           <input type="submit" class="btn btn-danger" name="btnrejet" value="Rejeter" style='background-color: #dc3545;margin-left: 100px; width: 10px;'>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+ </body>
+</html>
